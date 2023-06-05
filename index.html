@@ -3,6 +3,7 @@
 <head>
     <title>The Onion Test</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="onion.png">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
         <h2 id="rounds"></h2>
 
         <div id="scoreContainer">
-            <span id="score">0</span> points 
+            <h2 id="score">0 points</h2>  
         </div>
 
         <div id="gameContainer">
@@ -30,7 +31,7 @@
             <button id="notOnionButton">Not The Onion</button>
         </div>
 
-        <h3 id="sure"><i>How sure are you?</i></h3>
+        <h2 id="sure">How sure are you?</h2>
         <div id="confidence-wrapper">
             <button class="confidenceButton" value="50">50%</button>
             <button class="confidenceButton" value="60">60%</button>
@@ -49,6 +50,10 @@
         </div>
 
         </div>
+        <div>
+            <button id="retryButton" style="display: none;">Retry?</button>
+        </div>
+
     </div>
 
     <script src="game.js"></script>

@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* max-width: 2000px; */
+    
     margin: 0;
 }
 
@@ -46,6 +46,8 @@ a{
     border: 1px solid #cccccc;
     padding: 20px;
     background-color: #ffffff;
+    max-width: 800px;
+    width: 100%;
 }
 
 button {
@@ -65,7 +67,7 @@ button {
     display: none;
 }
 
-#continueButton {
+#retryButton{
     display: block;
     margin: auto;
 }
